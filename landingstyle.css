@@ -1,0 +1,17 @@
+		body {
+		display: flex;
+		flex-direction:column;
+		}
+	h1,h2,img {
+		align-self:center;
+		}
+	#linkContainer {
+		align-self:center;
+		}
+	img {
+		border-radius:20px;
+		margin:10px;
+		}
+	body{
+		background-color:rgb(173, 173, 173);
+		}
