@@ -1,0 +1,123 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color:#3a8bee;
+    justify-content: center;
+    position: relative;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    position: absolute;
+    left: 0;
+    height: 100px;
+}
+li{
+    list-style: none;
+    justify-content: space-around;
+    width: 100px;
+}
+
+nav {
+    height: 100px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+}
+
+.navDrop {
+    border: 2px solid rgb(175, 170, 170);
+    color: rgb(129, 127, 127);
+    font-size: 14px;
+    height: 50px;
+    width: 160px;
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 10px;
+    border-radius: 30px;
+    background-color: white;
+
+}
+.arrow{
+    width: 0;
+    height: 0;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-top: 10px solid black;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 500px;
+    align-items: center;
+
+}
+h1, h3{
+    color: gray;
+    align-content: center;
+}
+.mainSection section{
+    margin: 80px;
+    border: 2px solid grey;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+}
+.mainSection{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+footer{
+    background-color:#3a8bee;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    height: 50px;
+    align-items: center;
+}
+footer ul{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 80px;
+    width: 30%;
+    height: 100%;
+    align-items: center;
+}
+footer li{
+    margin-right: 50px;
+}
+.end{
+    border: 2px solid rgb(175, 170, 170);
+    color: rgb(129, 127, 127);
+    height: 20px;
+    width: 100px;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding-left: 2px;
+    border-radius: 30px;
+    background-color: white;
+}
