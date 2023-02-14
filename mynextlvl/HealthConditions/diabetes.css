@@ -6,13 +6,15 @@ main{
     align-items: center;
 	padding-bottom: 50px;
 }
-.asthmaRow1{
+.diabetesRow1{
+    width: 80%;
+    height: 500px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content:flex-start;
 }
-.asthmaRow2{
+.diabetesRow2{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -35,5 +37,27 @@ main{
     width: 400px;
     height: 300px;
     border: 1px solid grey;
+    border-radius: 30px;
+}
+.bigBox{
+    color: grey;
+    font-size: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    height: 100%;
+    border: 1px solid grey;
+    border-radius: 30px;
+}
+.sugarBox{
+    font-size: 20px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    height: 300px;
     border-radius: 30px;
 }
