@@ -3,14 +3,16 @@ html{
 }
 header{
 			text-align: center;
-			background-color: rgb(180, 135, 192);
-			border-radius: 100px;
-			border: 1px black solid;
+			background:purple;
+			background: linear-gradient(to top right, plum, rgb(194, 144, 209) 30%, rgb(158, 49, 158));
+
+			height: 80px;
+
 	}
 body {
 		display: flex;
 		flex-direction:column;
-		background-color: rgb(165, 161, 167);
+		background-color: rgb(192, 172, 201);
 	}
 h2,h1,img {
 		align-self:center;
@@ -36,7 +38,7 @@ li{
 	}
 a{
 		text-decoration: none;
-		font-size: 22px;
+		font-size: 18px;
 	}
 .practiceBox{
 	display: flex;
@@ -45,14 +47,13 @@ a{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 180px;
+	width: 150px;
 	height: 40px;
 	padding: 10px;
 	margin: 10px;
 	background-color: rgb(194, 144, 209);
-
 	border-radius: 20px;
-	border: 1px black solid;
+	border: 1px plum solid;
 }
 .practice:hover{
 	background-color: rgb(180, 135, 192);
