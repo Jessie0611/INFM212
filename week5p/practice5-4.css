@@ -1,0 +1,58 @@
+body{
+	background-color:#000000;
+	}
+.flexContainer{
+    display: flex;
+	}
+.flexbox{
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    background-color:rgb(255, 136, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	}
+.radiantCenter{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	margin: 20px;
+	height: 120px;
+  	width: 120px;
+	background:red;
+	background: radial-gradient(yellow,red);
+	}
+.radiantTop{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	margin: 20px;
+	height: 120px;
+  	width: 120px;
+	background:red;
+	background: radial-gradient(at top, yellow,red);
+	}
+.Starburst{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	margin: 20px;
+	height: 120px;
+  	width: 120px;
+	background: red;
+	background: radial-gradient(100px 50px,yellow,red);
+	}
+.radiantBottom{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	margin: 20px;
+	height: 120px;
+  	width: 120px;
+	background:red;
+	background: radial-gradient(70% 90% at bottom left, yellow, red);
+	}
