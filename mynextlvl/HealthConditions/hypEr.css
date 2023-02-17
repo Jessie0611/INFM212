@@ -6,7 +6,7 @@ main{
     align-items: center;
 	padding-bottom: 50px;
 }
-.diabetesRow1{
+.hyperRow1{
     width: 80%;
     height: 500px;
     display: flex;
@@ -14,28 +14,56 @@ main{
     align-items: center;
     justify-content:flex-start;
 }
-.diabetesRow2{
+.hyperRow2{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content:flex-start;
 
 }
-.box{
-    text-align: left;
-    height: 80%;
-    border-radius: 30px;
+.hyperRow3{
+    width: 80%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-start;
+}
+.hyperBox{
     padding: 20px;
 }
 .pBox{
     color: grey;
     font-size: 20px;
-    padding: 5px;
+    padding: 10px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     width: 400px;
     height: 300px;
+    border: 1px solid rgb(175, 170, 170);
+    border-radius: 30px;
+}
+.jdbBox{
+    color: grey;
+    font-size: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    height: 100%;
+    border-radius: 30px;
+}
+.jbBox{
+    color: grey;
+    font-size: 19px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 900px;
+    height: 270px;
     border: 1px solid rgb(175, 170, 170);
     border-radius: 30px;
 }
@@ -46,18 +74,8 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 90%;
+    width: 70%;
     height: 100%;
     border: 1px solid rgb(175, 170, 170);
-    border-radius: 30px;
-}
-.sugarBox{
-    font-size: 20px;
-    padding: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 70%;
-    height: 300px;
     border-radius: 30px;
 }

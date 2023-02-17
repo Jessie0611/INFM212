@@ -6,22 +6,7 @@ main{
     align-items: center;
 	padding-bottom: 50px;
 }
-.diabetesRow1{
-    width: 80%;
-    height: 500px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content:flex-start;
-}
-.diabetesRow2{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content:flex-start;
-
-}
-.box{
+.cysticBox{
     text-align: left;
     height: 80%;
     border-radius: 30px;
@@ -39,7 +24,7 @@ main{
     border: 1px solid rgb(175, 170, 170);
     border-radius: 30px;
 }
-.bigBox{
+.jdbBox{
     color: grey;
     font-size: 20px;
     padding: 30px;
@@ -48,16 +33,17 @@ main{
     justify-content: center;
     width: 90%;
     height: 100%;
-    border: 1px solid rgb(175, 170, 170);
     border-radius: 30px;
 }
-.sugarBox{
+.jbBox{
+    color: grey;
     font-size: 20px;
-    padding: 5px;
+    padding: 30px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 70%;
-    height: 300px;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 800px;
+    height: 250px;
+    border: 1px solid rgb(175, 170, 170);
     border-radius: 30px;
 }

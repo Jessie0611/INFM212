@@ -34,6 +34,6 @@ main{
     justify-content: flex-start;
     width: 400px;
     height: 300px;
-    border: 1px solid grey;
+    border: 1px solid rgb(175, 170, 170);
     border-radius: 30px;
 }
