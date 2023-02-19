@@ -8,7 +8,6 @@ main{
 }
 .cellRow1{
     width: 80%;
-    height: 500px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -16,14 +15,13 @@ main{
 }
 .cellBox{
     text-align: left;
-    height: 80%;
     border-radius: 30px;
     padding: 20px;
 }
 .pBox{
     color: grey;
-    font-size: 20px;
-    padding: 5px;
+    font-size: 18px;
+    padding: 20px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -34,49 +32,24 @@ main{
 }
 .jdbBox{
     color: grey;
-    font-size: 20px;
+    width: 80%;
+    font-size: 18px;
     padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    height: auto;
-    width: auto;
+
 }
 .jbBox{
     color: grey;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    width: 100%;
-    height: 100%;
-    border: 1px solid rgb(175, 170, 170);
-    border-radius: 30px;
-    padding: 30px;
-}
-.fUp{
-    color: grey;
-    font-size: 20px;
-    padding: 5px;
+    width: 90%;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    height: auto;
-    width: 80%;
-}
-.fupPbox{
-    color: grey;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    width: 80%;
-    height: 80%;
     border: 1px solid rgb(175, 170, 170);
     border-radius: 30px;
-    padding: 40px;
+    padding: 20px;
 }

@@ -63,7 +63,6 @@ header{
     width: 400px;
     height: 400px;
 }
-
 .rotate {
   animation: rotation 10s infinite linear;
   opacity: 90%;
