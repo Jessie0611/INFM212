@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyNextLvl</title>
     <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="account.css">
+    <link rel="stylesheet" href="newacc.css">
 </head>
 <body>
     <header>
@@ -50,41 +50,25 @@
             </div>
     </header>
     <main>
-        
-        <h1>Log In</h1>
-        <h3>You must be logged in to use reminers</h3>
-        
-        <div class="formContainer">
-            <div id="leftBox">
-                <h2>Please Log In</h2>
-                <form>
-                    <br>
-                    <br>
-                    <br>                   
-                    <input type="email" id="email" name="email" placeholder="*E-Mail Address"><br>
-                    
-                    <input type="password" id="password" name="password" placeholder="*Password"><br>
-                    <br><p> <small>*Required Information</small> &nbsp; &nbsp; &nbsp; &nbsp; <small><a href="../Account/resetPw.html">Forgot Password?</a></small> </p><br><br>
-                    <button type="button"><a href="../Account/profile.html">Log In</a></button>
-                </form>
-        </div>
-            <div id="rightBox">
-                <h2>Create an Account</h2>
-                <form>
-                    <br> <br> 
-                    <input type="text" id="fname" name="fname" placeholder="*Full Name"><br>
-                    
-                    <input type="email" id="email" name="email" placeholder="*E-mail Address"><br>
-                    
-                    <input type="password" id="password" name="password" placeholder="*Password"><br>
-                    
-                    <input type="password" id="password" name="password" placeholder="*R-Enter Password"><br>
-                    <br> <br> <br>
-                    <button type="button"><a href="../Account/newacc.html">Sign Up</a></button>
-                      </form>
-                  </form>
+        <h1>Health Insurance Portability and Accountability</h1>
+        <div class="accBox">
+               <h3>Terms and Conditions</h3>
+        <div class="bigBox">
+
+            <p>*Please verify age</p>
+            <label for="date" id="dateBox"> <h3>Date</h3></label>
+            <input type="date" id="date">
+
+        <div class="radiO">
+            <label>I agree</label>
+            <input type="radio" name="agree" id="agree" checked>
             </div>
-        </div>
+            <div class="radiO"><label>I disagree</label> 
+            <input type="radio" name="agree" id="disagree">
+                 </div>
+                 <br>
+       <button><a href="profile.html">Submit</a></button> 
+    </div></div>
     </main>
     <footer>
         <ul>

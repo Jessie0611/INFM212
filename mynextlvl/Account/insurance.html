@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyNextLvl</title>
     <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="account.css">
+    <link rel="stylesheet" href="insurance.css">
 </head>
 <body>
     <header>
@@ -45,46 +45,36 @@
                 </div>
             </nav>
             <div class="login">
-                <a href="Reminders/Login.html"><img src="../login.png" height="60px" width="60px" alt="Account">
-                <button class="log">Log In</a></button>
+                <a href="Reminders/Login.html"><img src="tony.png" height="60px" width="60px" alt="Account">
+                <button class="log">Log Out</a></button>
             </div>
     </header>
     <main>
-        
-        <h1>Log In</h1>
-        <h3>You must be logged in to use reminers</h3>
-        
+        <h1>Medical Insurance Information</h1>
         <div class="formContainer">
-            <div id="leftBox">
-                <h2>Please Log In</h2>
-                <form>
-                    <br>
-                    <br>
-                    <br>                   
-                    <input type="email" id="email" name="email" placeholder="*E-Mail Address"><br>
-                    
-                    <input type="password" id="password" name="password" placeholder="*Password"><br>
-                    <br><p> <small>*Required Information</small> &nbsp; &nbsp; &nbsp; &nbsp; <small><a href="../Account/resetPw.html">Forgot Password?</a></small> </p><br><br>
-                    <button type="button"><a href="../Account/profile.html">Log In</a></button>
-                </form>
-        </div>
-            <div id="rightBox">
-                <h2>Create an Account</h2>
-                <form>
-                    <br> <br> 
-                    <input type="text" id="fname" name="fname" placeholder="*Full Name"><br>
-                    
-                    <input type="email" id="email" name="email" placeholder="*E-mail Address"><br>
-                    
-                    <input type="password" id="password" name="password" placeholder="*Password"><br>
-                    
-                    <input type="password" id="password" name="password" placeholder="*R-Enter Password"><br>
-                    <br> <br> <br>
-                    <button type="button"><a href="../Account/newacc.html">Sign Up</a></button>
-                      </form>
-                  </form>
+    <div class="leftB">
+         <h3>Enter Insurance Information</h3>
+                <div id="leftBox">
+                    <input type="text" id="provider" name="provider" placeholder="Insurance Provider">
+                    <input type="text" id="policy" name="policy" placeholder="Policy Number">
+                    <input type="text" id="group" name="group" placeholder="Group Number">
+                    </div>
+        
+    </div>
+            <div class="rightBoxes">
+                <h3>Upload Image of Insurance Card</h3>
+                <div class="rightBox1">
+                    <img src="camera.png" alt="Upload Photo" width="100px">
+                    <h3>Front of Insurance Card</h3>
+                    <button>Upload Image</button>
+                </div>
+                <div class="rightBox2">
+                    <img src="camera.png" alt="Upload Photo" width="100px">
+                    <h3>Back of Insurance Card</h3>
+                    <button>Upload Image</button>
+                </div></div>
             </div>
-        </div>
+            <button class="submit">Submit/Edit</button>
     </main>
     <footer>
         <ul>
