@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyNextLvl</title>
     <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="ice.css">
+    <link rel="stylesheet" href="reminder.css"
+
 </head>
 <body>
     <header>
@@ -39,8 +40,8 @@
 
                 <div class="navDrop"> Reminders<div class="arrow"></div>
                 <div class="dropdown-content">
-                    <a href="appointment.html">Doctors Appointment</a>
-                    <a href="reminder.html">Medication Refill</a>
+                <a href="appointment.html">Doctors Appointment</a>
+                <a href="reminder.html">Medication Refill</a>
                 </div>
                 </div>
             </nav>
@@ -50,26 +51,44 @@
             </div>
     </header>
     <main>
-        <h1>Emergency Contact Information</h1>
+        <h1>Doctor Appointment Reminder</h1>
         <div class="formContainer">
                   
             <div id="leftBox">
-          <h3>Emergency Contact 1</h3>
-        <form>
-            <input type="text" id="fname" name="fname" placeholder="*Full Name">
-            <input type="email" id="email" name="email" placeholder="*E-mail Address">
-            <input type="tel" id="tel" name="tel" placeholder="Phone Number">
-        </form>
+          <h3>Set Your Reminder</h3>
+          <div class="mainInput">
+            <div class="inputBox">
+                <label for="date" id="date"> <h3>Date</h3></label>
+                <input type="date" id="date">
+                <label for="Time" id="time"> <h3>Time</h3></label>
+                <input type="time" id="time">
+                <h3>Doctor</h3>
+                <select>
+                    <option value="Dr 1">Doctor 1</option>
+                    <option value="Dr 2">Doctor 2</option>
+                    <option value="Dr 3">Doctor 3</option>
+                </select> <br>
+                <button class="submit">Set</button>
+
+
+
+            </div>
+          </div>
+
 </div>
-            <div id="rightBox">
-                <h3>Emergency Contact 2 </h3>    
-                <form>
-                    <input type="text" id="fname" name="fname" placeholder="*Full Name">
-                    <input type="email" id="email" name="email" placeholder="*E-mail Address">
-                    <input type="tel" id="tel" name="tel" placeholder="Phone Number">
-                </form>        
-                </div> </div>
-                <button class="submit"><small> <a href="profile.html"> Submit/Edit</a></small></button>
+            <div class="rightContainer">
+                <div class="rightBox">
+                    <h3>Upcomeing Reminder</h3>
+                    <p>Doctor 1</p>
+                    <p>Date:03/06/2023. . . Time: 12:00 pm. . .</p>
+                    <button class="submit">Edit</button>
+                    </div>
+                    <div class="rightBox">
+                        <h3>Past Reminder</h3>
+                        <p>Date: 01/01/2023 . . .  Medication 1 . . .</p>
+                    </div></div>
+            </div>
+                <button class="submit"> <a href="profile.html"> Submit/Edit</a></button>
        </main>
     <footer>
         <ul>
