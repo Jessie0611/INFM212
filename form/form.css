@@ -45,7 +45,7 @@ input[type=password] {
     border: 1px solid rgb(175, 170, 170);
     border-radius: 10px;
 }
-input[type=phonenumber] {
+input[type=tel] {
     width: 100%;
     padding: 15px;
     margin: 2px;

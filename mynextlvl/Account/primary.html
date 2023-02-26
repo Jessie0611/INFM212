@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyNextLvl</title>
     <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="primary.css">
 </head>
 <body>
     <header>
@@ -50,47 +50,28 @@
             </div>
     </header>
     <main>
-        <h1>Profile</h1>
+        <h1>Primary Care Physician</h1>
         <div class="formContainer">
+                  
             <div id="leftBox">
-
-            
-                <div class="input"> Personal Information
-                    <button><a href="personalinfo.html">View/Edit</a></button>
-                </div>
-            
-
-            <div class="input"> Medical Insurance Information 
-                <button><a href="insurance.html">View/Edit</a></button>
-                     </div>
-
-             <div class="input"> Allergy Information 
-                   <button><a href="allergies.html">View/Edit</a></button>
-                        </div>
-                    
-             <div class="input"> Medication Information 
-                   <button>View/Edit</button>
-                  </div>
-                  </div>
-
+          <h3>Emergency Contact 1</h3>
+        <form>
+            <input type="text" id="fname" name="fname" placeholder="Full Name">
+            <input type="email" id="email" name="email" placeholder="E-mail Address">
+            <input type="tel" id="tel" name="tel" placeholder="Phone Number">
+        </form>
+</div>
             <div id="rightBox">
-
-                <div class="input"> Emergency Contact Information 
-                    <button><a href="ice.html">View/Edit</a></button>
-                   </div>
-
-                   <div class="input"> Primary Care Physician Information 
-                    <button><a href="primary.html">View/Edit</a></button>
-                   </div>
-                   <div class="input"> Specialist Information 
-                    <button>View/Edit</button>
-                   </div>
-            
-
-                </div>
-        </div>
-
-    </main>
+                <h3>Hopsital Information</h3>    
+                <form>
+                    <input type="text" id="hsp" name="hsp" placeholder="*Hospital Name">
+                    <input type="text" id="address" name="address" placeholder="*Street Address 1">
+                    <input type="text" id="address" name="address" placeholder="*Street Address 2">
+                    <input type="text" id="zipcode" name="zipcode" placeholder="Zip code"> <input type="text" id="state" name="state" placeholder="State">
+                </form>        
+                </div> </div>
+                <button class="submit"><small> <a href="profile.html"> Submit/Edit</a></small></button>
+       </main>
     <footer>
         <ul>
             <li><div class="end"><a href="../faq.html">FAQ</a></div></li>
